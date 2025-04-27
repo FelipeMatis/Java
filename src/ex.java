@@ -10,9 +10,7 @@ verificados forem: 1,2,3, e 4, será realizada a seguinte impressão:
 ** */
     public static void main(String[] args){
 
-        int numero;
-
-        for(int i=0;i<=15;i++){
+        for(int i=1;i<=15;i++){
             if(i % 2 == 0){
                 System.out.println("*\n ");
             }else{
