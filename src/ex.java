@@ -12,9 +12,9 @@ verificados forem: 1,2,3, e 4, será realizada a seguinte impressão:
 
         for(int i=1;i<=15;i++){
             if(i % 2 == 0){
-                System.out.println("*\n ");
+                System.out.println("**");
             }else{
-                System.out.println("**\n");
+                System.out.println("*");
             }
         }
     }
